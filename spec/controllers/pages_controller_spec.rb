@@ -9,6 +9,11 @@ describe PagesController do
     controller.should be_an_instance_of(PagesController)
   end
 
+  before (:each) do
+    # 
+    # define @base_title here.
+    #
+  end
 
   describe "GET 'home'" do
     it "should be successful" do
